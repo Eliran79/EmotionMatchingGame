@@ -1,0 +1,30 @@
+{
+    "name": "Emotion Matching Game",
+    "short_name": "Emotion Match",
+    "icons": [
+      {
+        "src": "smiles-72x72.ico",
+        "sizes": "72x72",
+        "type": "image/vnd.microsoft.icon"
+      },
+      {
+        "src": "smiles-96x96.ico",
+        "sizes": "96x96",
+        "type": "image/vnd.microsoft.icon"
+      },
+      {
+        "src": "smiles-128x128.ico",
+        "sizes": "128x128",
+        "type": "image/vnd.microsoft.icon"
+      },
+      {
+        "src": "icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#f0f0f0",
+    "background_color": "#ffffff"
+  }

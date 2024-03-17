@@ -1,0 +1,90 @@
+body {
+    font-family: sans-serif;
+    font-size: 5vw; /* Adjust default font size */
+    text-align: center;
+    margin: 2vh auto;
+    background-color: #97fbf4; /* Add some background color for visibility */
+}
+
+#emotion-image {
+    width: 60vw; /* Use vw for viewport width (%) */
+    height: 30vh; /* Use vh for viewport height (%) */
+    image-rendering: auto;
+    margin-top: 5%; /* Maintain percentage for margin */
+}
+
+/* Container for options */
+#options-container {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    margin-top: 5%; /* Maintain percentage for margin */
+}
+
+#options {
+    display: grid; /* Existing grid styles for layout remain unchanged */
+    grid-template-columns: repeat(2, 1fr); /* Two columns, each taking 1 fraction of available space */
+    grid-template-rows: repeat(2, 1fr); /* Two rows, each taking 1 fraction of available space */
+    gap: '10vi'; /* Maintain pixel value for spacing */
+    align-self: flex-end;
+}
+
+#options button {
+    padding: 5vw;
+    border: 1px solid #97fbf4; /* Lighten the border color */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 10vw;
+    background-color: #FFC; /* Add a pastel yellow background for the buttons*/
+    color: #333; /* Darken the text color */
+}
+
+#message {
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: '200vi';
+    color: #F00; /* Add some red color to the message */
+}
+
+#coin-display {
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: '200vi';
+    color: #333; /* Darken the text color */
+}
+
+#play-again {
+    padding: 5vw;
+    border: 1px solid #196de3;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 5vw;
+    background-color: rgb(212, 146, 48); /* Add a pastel blue background for the play again button*/
+    color: #333; /* Darken the text color */
+}
+
+#reset-button {
+    padding: 5vw;
+    border: 1px solid #196de3;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 5vw;
+    background-color: rgb(212, 146, 48); /* Add a pastel blue background for the play again button*/
+    color: #333; /* Darken the text color */
+}
+
+/* Media query for portrait smartphone view */
+@media only screen and (orientation: portrait) and (max-height: 915px) {
+    #emotion-image {
+        height: 60vh; /* Adjust height for smaller screens */
+    }
+
+    #options-container {
+        width: 100%; /* Existing styles remain unchanged */
+    }
+
+    #game-container {
+        height: 20vh; /* Adjust height for smaller screens */
+    }
+    
+}
